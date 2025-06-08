@@ -38,3 +38,8 @@ inc/
 /.env
 /.venv
 /data
+/__pycache__/
+.gitignore
+bcutils/__pycache__/__init__.cpython-313.pyc
+bcutils/__pycache__/bc_utils.cpython-313.pyc
+bcutils/__pycache__/config.cpython-313.pyc
