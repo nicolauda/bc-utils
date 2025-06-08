@@ -381,7 +381,7 @@ def get_barchart_downloads(
                 else:
                     if pause_between_downloads:
                         # cursory attempt to not appear like a bot
-                        time.sleep(0 if dry_run else randint(7, 15))
+                        time.sleep(0 if dry_run else randint(5, 13))
 
         # logout
         resp = session.get(BARCHART_URL + "logout", timeout=10)
