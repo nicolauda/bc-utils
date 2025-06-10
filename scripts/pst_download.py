@@ -9,7 +9,7 @@ from bcutils.bc_utils import (
 
 logging.basicConfig(level=logging.INFO)
 HOME_PATH = os.path.expanduser("~")
-CONFIG_FILE = os.path.join(HOME_PATH,"pysystemtrade/private/private_config.yaml")
+CONFIG_FILE = os.path.join(HOME_PATH,"pst/pysystemtrade-private/private/private_config.yaml")
 
 def download_with_config():
     # run a download session, with config picked up from the passed file
